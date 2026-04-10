@@ -1,0 +1,8 @@
+Joueur;2;PhantomX;phantom@sz.gg;99;2026-04-10;LOL;Bronze;0;VOID
+Joueur;3;SkyKnight;sky@sz.gg;78;2026-04-10;CSGO;Bronze;0;NOVA
+Joueur;4;DarkFlare;dark@sz.gg;76;2026-04-10;VALORANT;Bronze;0;VOID
+Coach;5;CoachMike;mike@sz.gg;95;2026-04-10;Strategie;5;NOVA;0
+Coach;6;CoachAna;ana@sz.gg;90;2026-04-10;Macro;4;VOID;0
+Administrateur;7;AdminRoot;admin@sz.gg;99;2026-04-10;PLATFORM_ADMIN;;0
+Joueur;8;Bonsoir;joueur;19;2026-04-10;VALORANT;Bronze;0;NOVA
+Joueur;9;FAKER;FF;30;2026-04-10;VALORANT;Bronze;0;SKT

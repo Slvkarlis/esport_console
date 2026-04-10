@@ -114,6 +114,11 @@ public class Tournoi {
 
   // setters
   public void setNom(String nom)           { this.nom = nom; }
+  public void setJeu(String jeu)           { this.jeu = jeu; }
+  public void setFormat(Format format)     { this.format = format; }
+  public void setDateDebut(LocalDate date) { this.dateDebut = date; }
+  public void setDateFin(LocalDate date)   { this.dateFin = date; }
+  public void setNbEquipesMax(int max)     { this.nbEquipesMax = max; }
   public void setStatut(Statut statut)     { this.statut = statut; }
   public void setVainqueur(Equipe equipe)  { this.vainqueur = equipe; }
 

@@ -97,6 +97,25 @@ public class Match {
   public String        getTournoiNom()    { return tournoiNom; }
 
   // setters
+  public void setEquipe1(Equipe equipe) {
+    if (equipe == null) throw new IllegalArgumentException("L'equipe 1 ne peut pas etre null.");
+    if (this.equipe2 != null && equipe.getId() == this.equipe2.getId()) {
+      throw new IllegalArgumentException("Les deux equipes doivent etre differentes.");
+    }
+    this.equipe1 = equipe;
+  }
+
+  public void setEquipe2(Equipe equipe) {
+    if (equipe == null) throw new IllegalArgumentException("L'equipe 2 ne peut pas etre null.");
+    if (this.equipe1 != null && equipe.getId() == this.equipe1.getId()) {
+      throw new IllegalArgumentException("Les deux equipes doivent etre differentes.");
+    }
+    this.equipe2 = equipe;
+  }
+
+  public void setScoreEquipe1(int score)   { this.scoreEquipe1 = Math.max(0, score); }
+  public void setScoreEquipe2(int score)   { this.scoreEquipe2 = Math.max(0, score); }
+  public void setDateHeure(LocalDateTime d){ this.dateHeure = d; }
   public void setGagnant(Equipe gagnant)  { this.gagnant = gagnant; }
   public void setStatut(Statut statut)    { this.statut = statut; }
   public void setTournoiNom(String nom)   { this.tournoiNom = nom; }
